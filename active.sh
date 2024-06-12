@@ -24,7 +24,7 @@ export NGSENV_BASEDIR=${_mydir}
 #. ${NGS_PIPELINE_BASH_SOURCE}
 PATH=${NGSENV_BASEDIR}/bin:${PATH}
 PYTHONPATH=${NGSENV_BASEDIR}:${PYTHONPATH}
-export NGS_PIPELINE_CMD_MODS=g6pd_pipeline.cmds:${NGS_PIPELINE_CMD_MODS}
+export NGS_PIPELINE_CMD_MODS=pipeline.cmds:${NGS_PIPELINE_CMD_MODS}  # **UPDATE** the pipeline name (if changed)
 
 PS1="(${PROMPT}) [\u@\h \W]\$ "
 
